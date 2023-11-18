@@ -11,9 +11,9 @@ mylist = []
 mytuple = ()
 
 for i in range(5):
-    x = input("Enter first number:\t")
+    x = input("\nEnter first number:\t")
     mylist.append(x)
     mytuple += (x, )
 
-print(mylist)
-print(mytuple)
+print("\n The Python list is\t", mylist)
+print("\n The Python tuple is\t", mytuple, "\n")
